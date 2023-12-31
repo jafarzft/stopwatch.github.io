@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>  <!--to import the font from font awesome website -->
+
+</head>
+<body>
+    <div id="displayStopWatch"> <!-- A div that contains the Stopwatch -->
+        <h1><i class="fa-solid fa-stopwatch"></i> Stopwatch</h1>
+        
+        <div class="stopWatch" > <!-- a div that contains the timer-->
+            <span class="hrs">00</span><span class = "colon">:</span><span class="mins">00</span><span class = "colon">:</span><span class="sec">00</span>
+        </div>
+
+        <div class="controls"> <!-- a div that contains all buttons-->
+            <button id="start-button"><i class="fa-solid fa-play"></i></button>
+            <button id="stop-button"><i class="fa-solid fa-stop"></i></button>
+            <button id="reset-button"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
