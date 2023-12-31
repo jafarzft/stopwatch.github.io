@@ -23,7 +23,7 @@ h1{
 /* Syles for Stopwatch div */
 #displayStopWatch{
     width: 50vw;
-    height: 50vh;
+    height: 25vh;
     margin-top: 25vh;
     border: 2px solid black;
     border-radius: 50%;
