@@ -63,6 +63,7 @@ h1{
     background-color: white;
     color: #3498DB;
 }
+
 @media screen and (max-width:700px){
 	#displayStopWatch{
         width: 30vh;
@@ -87,5 +88,3 @@ h1{
         margin-bottom: 10px;
     }
 }
-
-
