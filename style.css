@@ -9,6 +9,7 @@ body {
 /* CSS style for the stopwatch heading */
 h1{
     margin-top: 100px;
+    font-size: 3rem;
     font-weight: bold;
     color: rgb(5, 109, 92);
 
@@ -62,4 +63,29 @@ h1{
     background-color: white;
     color: #3498DB;
 }
+@media screen and (max-width:700px){
+	#displayStopWatch{
+        width: 30vh;
+        height: 30vh;
+        margin-top: 30vh;
+    }
+
+    .controls button {
+        height: 2rem;
+        width: 2rem;
+        margin: 5px;
+        font-size: 1.5rem;
+    }
+
+    h1{
+        margin-top: 50px;
+        font-size: 1.8rem;
+    }
+    .stopWatch {
+        font-size: 2rem;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
+
 
